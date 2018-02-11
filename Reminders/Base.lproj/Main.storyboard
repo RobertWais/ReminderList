@@ -158,11 +158,11 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="bJR-yx-z4z"/>
                                 </constraints>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Display message....." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-d8-nXs">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Display message....." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-d8-nXs">
                                 <rect key="frame" x="16" y="109" width="343" height="87"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="aNt-cq-RR1"/>
+                                    <constraint firstAttribute="height" constant="87" id="3I6-k3-VMG"/>
                                 </constraints>
                                 <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -194,18 +194,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Fh5-d8-nXs" firstAttribute="centerX" secondItem="rfx-3m-2dU" secondAttribute="centerX" id="5x1-CG-bXZ"/>
+                            <constraint firstItem="Fh5-d8-nXs" firstAttribute="centerX" secondItem="rfx-3m-2dU" secondAttribute="centerX" id="Fdn-dd-Mbg"/>
                             <constraint firstItem="haP-RG-gv8" firstAttribute="trailing" secondItem="fxc-eb-dB6" secondAttribute="trailing" id="GFW-X3-43J"/>
                             <constraint firstItem="vac-I8-xly" firstAttribute="trailing" secondItem="fxc-eb-dB6" secondAttribute="trailing" id="JFv-0K-Q5c"/>
                             <constraint firstItem="rfx-3m-2dU" firstAttribute="top" secondItem="njl-dW-KtD" secondAttribute="top" id="UQY-QR-99A"/>
+                            <constraint firstItem="Fh5-d8-nXs" firstAttribute="leading" secondItem="njl-dW-KtD" secondAttribute="leadingMargin" id="VSO-fa-h60"/>
                             <constraint firstItem="fxc-eb-dB6" firstAttribute="bottom" secondItem="haP-RG-gv8" secondAttribute="bottom" id="Vte-vw-34v"/>
+                            <constraint firstItem="Fh5-d8-nXs" firstAttribute="top" secondItem="rfx-3m-2dU" secondAttribute="bottom" constant="24" id="ay7-Aa-xLt"/>
                             <constraint firstItem="vac-I8-xly" firstAttribute="leading" secondItem="fxc-eb-dB6" secondAttribute="leading" id="cV7-MT-m6p"/>
-                            <constraint firstItem="Fh5-d8-nXs" firstAttribute="leading" secondItem="njl-dW-KtD" secondAttribute="leadingMargin" id="daN-7I-8lg"/>
                             <constraint firstItem="haP-RG-gv8" firstAttribute="leading" secondItem="fxc-eb-dB6" secondAttribute="leading" id="irD-KQ-jWj"/>
                             <constraint firstItem="rfx-3m-2dU" firstAttribute="trailing" secondItem="fxc-eb-dB6" secondAttribute="trailing" id="mR7-CC-TZt"/>
-                            <constraint firstItem="vac-I8-xly" firstAttribute="top" secondItem="Fh5-d8-nXs" secondAttribute="bottom" constant="20" id="mci-bD-T4L"/>
-                            <constraint firstItem="Fh5-d8-nXs" firstAttribute="top" secondItem="rfx-3m-2dU" secondAttribute="bottom" constant="24" id="qap-Cb-VPW"/>
                             <constraint firstItem="rfx-3m-2dU" firstAttribute="leading" secondItem="fxc-eb-dB6" secondAttribute="leading" id="sz2-yh-US2"/>
+                            <constraint firstItem="vac-I8-xly" firstAttribute="top" secondItem="Fh5-d8-nXs" secondAttribute="bottom" constant="3" id="ykE-Y8-8TT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fxc-eb-dB6"/>
                     </view>
